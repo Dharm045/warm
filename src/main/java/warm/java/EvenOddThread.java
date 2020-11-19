@@ -1,11 +1,11 @@
-package warm;
+package warm.java;
 
 public class EvenOddThread {
 
     int number = 0;
 
     public static void main(String[] args) {
-        EvenOddThread evenOddThread = new EvenOddThread();
+        final EvenOddThread evenOddThread = new EvenOddThread();
         Thread t1 = new Thread(new Runnable() {
             @Override
             public void run() {

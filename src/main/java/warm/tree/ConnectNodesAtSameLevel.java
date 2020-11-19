@@ -3,7 +3,6 @@ package warm.tree;
 import java.util.LinkedList;
 import java.util.Queue;
 
-import com.aerospike.client.lua.LuaAerospikeLib.index;
 
 /**
  * https://practice.geeksforgeeks.org/problems/connect-nodes-at-same-level/1
